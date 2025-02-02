@@ -1,0 +1,273 @@
+==============================================================================
+World of WarCraft (build 5875)
+
+Exe:      D:\Turtle WoW 1.17.2\WoW.exe
+Time:     Feb  2, 2025 11:51:39.692 AM
+User:     Jerry
+Computer: DESKTOP-P4S7M40
+------------------------------------------------------------------------------
+
+This application has encountered a critical error:
+
+ERROR #132 (0x85100084) Fatal Exception
+Program:	D:\Turtle WoW 1.17.2\WoW.exe
+Exception:	0xC0000005 (ACCESS_VIOLATION) at 0023:006203A0
+
+The instruction at "0x006203A0" referenced memory at "0x00000089".
+The memory could not be "read".
+
+
+WoWBuild: 5875
+------------------------------------------------------------------------------
+
+----------------------------------------
+    x86 Registers
+----------------------------------------
+
+EAX=00614120  EBX=36147188  ECX=00000001  EDX=00000002  ESI=00000001
+EDI=6631DCC8  EBP=0019FB18  ESP=0019FAFC  EIP=006203A0  FLG=00010202
+CS =0023      DS =002B      ES =002B      SS =002B      FS =0053      GS =002B
+
+
+----------------------------------------
+    Stack Trace (Manual)
+----------------------------------------
+
+Address  Frame    Logical addr  Module
+
+006203A0 0019FB18 0001:0021F3A0 D:\Turtle WoW 1.17.2\WoW.exe
+005F8A6F 0019FB24 0001:001F7A6F D:\Turtle WoW 1.17.2\WoW.exe
+004655DF 0019FB54 0001:000645DF D:\Turtle WoW 1.17.2\WoW.exe
+004654A9 0019FC40 0001:000644A9 D:\Turtle WoW 1.17.2\WoW.exe
+0046527C 0019FC64 0001:0006427C D:\Turtle WoW 1.17.2\WoW.exe
+004673BB 0019FDA8 0001:000663BB D:\Turtle WoW 1.17.2\WoW.exe
+00537AE7 0019FDC4 0001:00136AE7 D:\Turtle WoW 1.17.2\WoW.exe
+00537CA5 0019FDF0 0001:00136CA5 D:\Turtle WoW 1.17.2\WoW.exe
+00538541 0019FE18 0001:00137541 D:\Turtle WoW 1.17.2\WoW.exe
+005B3DE3 0019FE58 0001:001B2DE3 D:\Turtle WoW 1.17.2\WoW.exe
+00421022 0019FEC8 0001:00020022 D:\Turtle WoW 1.17.2\WoW.exe
+00420BF1 0019FEE0 0001:0001FBF1 D:\Turtle WoW 1.17.2\WoW.exe
+0040411E 0019FF70 0001:0000311E D:\Turtle WoW 1.17.2\WoW.exe
+762DFCC9 0019FF80 0001:0000FCC9 C:\Windows\System32\KERNEL32.DLL
+77D4809E 0019FFDC 0001:0006709E C:\Windows\SYSTEM32\ntdll.dll
+77D4806E 0019FFEC 0001:0006706E C:\Windows\SYSTEM32\ntdll.dll
+
+----------------------------------------
+    Stack Trace (Using DBGHELP.DLL)
+----------------------------------------
+
+006203A0 WoW.exe      <unknown symbol>+0 (0x00000002,0x0019FB54,0x004655DF,0x844CEE38)
+
+
+----------------------------------------
+    Loaded Modules
+----------------------------------------
+
+0x00400000 - 0x00D26000  D:\Turtle WoW 1.17.2\WoW.exe
+0x02B60000 - 0x02C78000  D:\Turtle WoW 1.17.2\dbghelp.dll
+0x03720000 - 0x037B6000  D:\Turtle WoW 1.17.2\fmod.dll
+0x10000000 - 0x10069000  D:\Turtle WoW 1.17.2\DivxDecoder.dll
+0x50530000 - 0x505D4000  C:\Windows\SYSTEM32\apphelp.dll
+0x50B10000 - 0x50B18000  C:\Windows\SYSTEM32\midimap.dll
+0x50B20000 - 0x50B5A000  C:\Windows\SYSTEM32\wdmaud.drv
+0x50B60000 - 0x50BDF000  C:\Windows\SYSTEM32\dsound.dll
+0x50BE0000 - 0x50C50000  D:\Turtle WoW 1.17.2\UnitXP_SP3.dll
+0x50C50000 - 0x50D56000  C:\Windows\SYSTEM32\OPENGL32.dll
+0x50D60000 - 0x50FFB000  C:\Windows\SYSTEM32\msi.dll
+0x51000000 - 0x510E9000  C:\Windows\SYSTEM32\DDRAW.dll
+0x510F0000 - 0x51226000  C:\Windows\SYSTEM32\AUDIOSES.DLL
+0x52390000 - 0x557D0000  C:\Windows\System32\DriverStore\FileRepository\u0410212.inf_amd64_daae2c8b5eb35aaa\B409877\AMDXN32.DLL
+0x557D0000 - 0x55827000  D:\Turtle WoW 1.17.2\nampower.dll
+0x55850000 - 0x5587C000  C:\Windows\SYSTEM32\dxcore.dll
+0x55B60000 - 0x55B8B000  C:\Windows\System32\DriverStore\FileRepository\u0410212.inf_amd64_daae2c8b5eb35aaa\B409877\amdihk32.dll
+0x55B90000 - 0x55BAA000  C:\Windows\System32\DriverStore\FileRepository\u0410212.inf_amd64_daae2c8b5eb35aaa\B409877\atidx9loader32.dll
+0x56460000 - 0x5646A000  C:\Windows\SYSTEM32\msacm32.drv
+0x56A80000 - 0x56B6D000  C:\Windows\System32\InputHost.dll
+0x56C80000 - 0x56CF3000  C:\Windows\System32\WindowManagementAPI.dll
+0x56D00000 - 0x56DF3000  C:\Windows\System32\Windows.UI.dll
+0x56E00000 - 0x56E93000  C:\Windows\SYSTEM32\mscms.dll
+0x617D0000 - 0x61962000  C:\Windows\SYSTEM32\d3d9.dll
+0x61970000 - 0x61A35000  C:\Windows\SYSTEM32\dxgi.dll
+0x67C50000 - 0x67ECF000  C:\Windows\SYSTEM32\CoreUIComponents.dll
+0x67F10000 - 0x67F36000  C:\Windows\SYSTEM32\dwmapi.dll
+0x67F40000 - 0x67FDB000  C:\Windows\SYSTEM32\CoreMessaging.dll
+0x67FE0000 - 0x68099000  C:\Windows\SYSTEM32\textinputframework.dll
+0x681D0000 - 0x681D7000  C:\Windows\SYSTEM32\ksuser.dll
+0x681E0000 - 0x681E8000  C:\Windows\SYSTEM32\AVRT.dll
+0x681F0000 - 0x68211000  D:\Turtle WoW 1.17.2\Interact.dll
+0x68220000 - 0x68245000  D:\Turtle WoW 1.17.2\SuperWoWhook.dll
+0x683D0000 - 0x683DF000  C:\Windows\SYSTEM32\resourcepolicyclient.dll
+0x683E0000 - 0x683EA000  D:\Turtle WoW 1.17.2\VanillaMultiMonitorFix.dll
+0x683F0000 - 0x6840A000  D:\Turtle WoW 1.17.2\VfPatcher.dll
+0x68410000 - 0x6842D000  C:\Windows\SYSTEM32\winmmbase.dll
+0x68430000 - 0x68449000  C:\Windows\SYSTEM32\MSACM32.dll
+0x68450000 - 0x6848F000  C:\Windows\SYSTEM32\GLU32.dll
+0x68490000 - 0x68497000  C:\Windows\SYSTEM32\DCIMAN32.dll
+0x684A0000 - 0x68517000  C:\Windows\SYSTEM32\AcSpecfc.DLL
+0x6B870000 - 0x6B8DB000  C:\Windows\System32\MMDevApi.dll
+0x6B8E0000 - 0x6B8FF000  C:\Windows\system32\ncryptsslp.dll
+0x6B940000 - 0x6B961000  C:\Windows\SYSTEM32\ncrypt.dll
+0x6B970000 - 0x6B998000  C:\Windows\SYSTEM32\NTASN1.dll
+0x6B9A0000 - 0x6B9B0000  C:\Windows\SYSTEM32\mskeyprotect.dll
+0x6B9B0000 - 0x6BA2E000  C:\Windows\System32\schannel.dll
+0x6BA30000 - 0x6BA3C000  C:\Windows\SYSTEM32\ColorAdapterClient.dll
+0x6CE50000 - 0x6D2A6000  C:\Windows\SYSTEM32\WININET.dll
+0x6E540000 - 0x6E61D000  C:\Windows\SYSTEM32\wintypes.dll
+0x6E980000 - 0x6EB11000  C:\Windows\SYSTEM32\twinapi.appcore.dll
+0x6EEF0000 - 0x6EF16000  C:\Windows\System32\cryptnet.dll
+0x6F270000 - 0x6F278000  C:\Windows\System32\rasadhlp.dll
+0x6F280000 - 0x6F2D8000  C:\Windows\System32\fwpuclnt.dll
+0x6F2E0000 - 0x6F2EE000  C:\Windows\System32\winrnr.dll
+0x6F2F0000 - 0x6F306000  C:\Windows\system32\NLAapi.dll
+0x6F350000 - 0x6F366000  C:\Windows\system32\pnrpnsp.dll
+0x6F370000 - 0x6F381000  C:\Windows\system32\napinsp.dll
+0x6F3D0000 - 0x6F44D000  C:\Windows\SYSTEM32\WINSPOOL.DRV
+0x70970000 - 0x70A00000  C:\Windows\SYSTEM32\DNSAPI.dll
+0x70A00000 - 0x70A2F000  C:\Windows\system32\rsaenh.dll
+0x70A30000 - 0x70A40000  C:\Windows\system32\wshbth.dll
+0x70A40000 - 0x70A53000  C:\Windows\SYSTEM32\CRYPTSP.dll
+0x716B0000 - 0x716B8000  C:\Windows\SYSTEM32\WINNSI.DLL
+0x716C0000 - 0x716D2000  C:\Windows\SYSTEM32\ondemandconnroutehelper.dll
+0x71940000 - 0x71A02000  C:\Windows\System32\PROPSYS.dll
+0x71A80000 - 0x71AF4000  C:\Windows\system32\uxtheme.dll
+0x71D20000 - 0x71D3B000  C:\Windows\SYSTEM32\profapi.dll
+0x71D40000 - 0x71D4A000  C:\Windows\SYSTEM32\CRYPTBASE.DLL
+0x72210000 - 0x7221E000  C:\Windows\SYSTEM32\MSASN1.dll
+0x723D0000 - 0x723F9000  C:\Windows\System32\DEVOBJ.dll
+0x73AF0000 - 0x73B11000  C:\Windows\SYSTEM32\SspiCli.dll
+0x73D60000 - 0x73D6D000  C:\Windows\SYSTEM32\UMPDC.dll
+0x73D70000 - 0x73D99000  C:\Windows\SYSTEM32\ntmarta.dll
+0x73DA0000 - 0x73DC5000  C:\Windows\SYSTEM32\Wldp.dll
+0x745F0000 - 0x745FF000  C:\Windows\SYSTEM32\kernel.appcore.dll
+0x74600000 - 0x74608000  C:\Windows\SYSTEM32\DPAPI.DLL
+0x74610000 - 0x746DB000  C:\Windows\SYSTEM32\winhttp.dll
+0x746E0000 - 0x74CF8000  C:\Windows\SYSTEM32\windows.storage.dll
+0x74D00000 - 0x74D1D000  C:\Windows\SYSTEM32\srvcli.dll
+0x74D20000 - 0x74D2B000  C:\Windows\SYSTEM32\netutils.dll
+0x74DC0000 - 0x74FF8000  C:\Windows\SYSTEM32\iertutil.dll
+0x75000000 - 0x75019000  C:\Windows\SYSTEM32\MPR.dll
+0x75020000 - 0x75064000  C:\Windows\SYSTEM32\powrprof.dll
+0x75500000 - 0x7558D000  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.4355_none_c0dc01d438beab35\COMCTL32.dll
+0x755A0000 - 0x7574E000  C:\Windows\SYSTEM32\urlmon.dll
+0x75750000 - 0x75758000  C:\Windows\SYSTEM32\WSOCK32.dll
+0x75760000 - 0x75792000  C:\Windows\SYSTEM32\IPHLPAPI.DLL
+0x757E0000 - 0x75832000  C:\Windows\SYSTEM32\mswsock.dll
+0x75840000 - 0x75868000  C:\Windows\SYSTEM32\WINMM.dll
+0x75880000 - 0x758A5000  C:\Windows\SYSTEM32\USERENV.dll
+0x75A40000 - 0x75A55000  C:\Windows\SYSTEM32\VCRUNTIME140.dll
+0x75A60000 - 0x75ACD000  C:\Windows\SYSTEM32\MSVCP140.dll
+0x75B50000 - 0x75C0F000  C:\Windows\System32\msvcrt.dll
+0x75C10000 - 0x75C8E000  C:\Windows\System32\clbcatq.dll
+0x75C90000 - 0x75C97000  C:\Windows\System32\NSI.dll
+0x75CA0000 - 0x75CA6000  C:\Windows\System32\PSAPI.DLL
+0x75CD0000 - 0x75CF3000  C:\Windows\System32\GDI32.dll
+0x75D00000 - 0x75E20000  C:\Windows\System32\ucrtbase.dll
+0x75E20000 - 0x75E7F000  C:\Windows\System32\bcryptPrimitives.dll
+0x76000000 - 0x7604D000  C:\Windows\System32\WINTRUST.dll
+0x76050000 - 0x760FF000  C:\Windows\System32\COMDLG32.dll
+0x76100000 - 0x76177000  C:\Windows\System32\sechost.dll
+0x76180000 - 0x761FE000  C:\Windows\System32\ADVAPI32.dll
+0x76200000 - 0x762BC000  C:\Windows\System32\RPCRT4.dll
+0x762C0000 - 0x763B0000  C:\Windows\System32\KERNEL32.DLL
+0x763B0000 - 0x76495000  C:\Windows\System32\gdi32full.dll
+0x764A0000 - 0x76A7A000  C:\Windows\System32\SHELL32.dll
+0x76AE0000 - 0x76B43000  C:\Windows\System32\WS2_32.dll
+0x76B50000 - 0x76C4E000  C:\Windows\System32\CRYPT32.dll
+0x76C50000 - 0x76CCB000  C:\Windows\System32\msvcp_win.dll
+0x76CD0000 - 0x76F51000  C:\Windows\System32\combase.dll
+0x76F60000 - 0x7739B000  C:\Windows\System32\SETUPAPI.dll
+0x77430000 - 0x77449000  C:\Windows\System32\bcrypt.dll
+0x77450000 - 0x77690000  C:\Windows\System32\KERNELBASE.dll
+0x77690000 - 0x776B5000  C:\Windows\System32\IMM32.dll
+0x776C0000 - 0x777A3000  C:\Windows\System32\ole32.dll
+0x777B0000 - 0x77846000  C:\Windows\System32\OLEAUT32.dll
+0x77850000 - 0x779EC000  C:\Windows\System32\USER32.dll
+0x77A50000 - 0x77A68000  C:\Windows\System32\win32u.dll
+0x77A70000 - 0x77AAB000  C:\Windows\System32\cfgmgr32.dll
+0x77AB0000 - 0x77B84000  C:\Windows\System32\MSCTF.dll
+0x77B90000 - 0x77BD5000  C:\Windows\System32\SHLWAPI.dll
+0x77BE0000 - 0x77C67000  C:\Windows\System32\shcore.dll
+0x77CE0000 - 0x77E84000  C:\Windows\SYSTEM32\ntdll.dll
+0x79BD0000 - 0x7A54E000  D:\Turtle WoW 1.17.2\VanillaUtils.dll
+
+
+----------------------------------------
+    Memory Dump
+----------------------------------------
+
+Code: 16 bytes starting at (EIP = 006203A0)
+
+006203A0: 8B 81 88 00  00 00 33 D2  3B C2 56 74  08 8B B1 8C  ......3.;.Vt....
+
+
+Stack: 1024 bytes starting at (ESP = 0019FAFC)
+
+* = addr                                         **                       *   
+0019FAF0: 86 48 46 00  F5 61 1F 66  84 1B 22 68  37 41 61 00  .HF..a.f.."h7Aa.
+0019FB00: F5 61 1F 66  C8 DC 31 66  12 54 22 68  A5 61 1F 66  .a.f..1f.T"h.a.f
+0019FB10: B2 8B 5F 00  02 00 00 00  24 FB 19 00  6F 8A 5F 00  .._.....$...o._.
+0019FB20: 02 00 00 00  54 FB 19 00  DF 55 46 00  38 EE 4C 84  ....T....UF.8.L.
+0019FB30: B0 02 10 F1  F4 61 1F 66  00 00 00 00  09 00 00 00  .....a.f........
+0019FB40: 05 00 00 00  06 00 00 00  30 FC 19 00  04 00 00 00  ........0.......
+0019FB50: F8 5E 1F 66  40 FC 19 00  A9 54 46 00  38 EE 4C 84  .^.f@....TF.8.L.
+0019FB60: B0 02 10 F1  05 00 00 00  4A 44 D6 42  78 FD 19 00  ........JD.Bx...
+0019FB70: 00 00 00 00  00 02 08 01  00 00 00 00  00 00 00 00  ................
+0019FB80: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FB90: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FBA0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FBB0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FBC0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FBD0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FBE0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FBF0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FC00: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FC10: 00 00 00 00  00 00 00 00  02 00 00 00  1A 00 00 00  ................
+0019FC20: 78 FD 19 00  38 EE 4C 84  B0 02 10 F1  F8 5E 1F 66  x...8.L......^.f
+0019FC30: 08 00 00 00  90 71 14 36  88 71 14 36  00 44 D6 42  .....q.6.q.6.D.B
+0019FC40: 64 FC 19 00  7C 52 46 00  00 00 00 00  00 00 00 01  d...|RF.........
+0019FC50: 00 00 00 00  74 FC 19 00  F8 00 00 00  05 00 00 00  ....t...........
+0019FC60: 03 00 00 00  A8 FD 19 00  BB 73 46 00  4A 44 D6 00  .........sF.JD..
+0019FC70: 78 FD 19 00  03 00 00 00  00 00 FF 38  EE 4C 84 B0  x..........8.L..
+0019FC80: 02 10 F1 01  00 02 08 01  02 00 00 00  00 00 00 00  ................
+0019FC90: 64 00 00 00  00 FB 1D 2D  24 36 16 40  F1 06 00 00  d......-$6.@....
+0019FCA0: 40 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  @...............
+0019FCB0: 00 00 00 00  00 00 EC 0B  00 00 00 07  88 DE 4D 29  ..............M)
+0019FCC0: 00 00 03 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FCD0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FCE0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FCF0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FD00: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FD10: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FD20: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FD30: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FD40: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FD50: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0019FD60: 00 00 00 00  00 00 00 00  00 00 00 00  F6 01 00 00  ................
+0019FD70: 08 60 18 18  D8 FD 19 00  10 36 80 00  28 00 C5 66  .`.......6..(..f
+0019FD80: 00 00 00 00  00 03 00 00  F8 00 00 00  18 00 00 00  ................
+0019FD90: 08 00 C5 66  32 01 00 00  00 01 00 00  8E 19 9E 3F  ...f2..........?
+0019FDA0: F8 00 00 00  F8 00 00 00  C4 FD 19 00  E7 7A 53 00  .............zS.
+0019FDB0: 4A 44 D6 42  D8 FD 19 01  88 4E 17 18  08 60 18 18  JD.B.....N...`..
+0019FDC0: 68 E5 91 6C  F0 FD 19 00  A5 7C 53 00  4A 44 D6 42  h..l.....|S.JD.B
+0019FDD0: D8 FD F6 01  08 60 18 18  E4 F9 7F 00  88 19 9E 3F  .....`.........?
+0019FDE0: 00 00 00 00  FF FF FF FF  48 00 00 00  48 00 00 00  ........H...H...
+0019FDF0: 18 FE 19 00  41 85 53 00  4A 44 D6 42  88 19 9E 3F  ....A.S.JD.B...?
+0019FE00: 48 00 00 00  D5 A2 C2 00  38 FE 19 00  C8 13 95 19  H.......8.......
+0019FE10: 8C 4E 17 18  58 FE 19 00  58 FE 19 00  E3 3D 5B 00  .N..X...X....=[.
+0019FE20: C8 13 95 19  29 36 40 00  B0 46 42 00  18 28 8B 06  ....)6@..FB..(..
+0019FE30: 08 28 8B 06  00 00 00 00  C8 13 95 19  E8 67 8E 06  .(...........g..
+0019FE40: 00 00 00 00  60 FE 19 00  64 FE 19 00  01 00 00 00  ....`...d.......
+0019FE50: 06 00 00 00  AC 28 8B 06  C8 FE 19 00  22 10 42 00  .....(......".B.
+0019FE60: 00 00 00 00  02 01 00 00  08 28 8B 06  00 00 00 00  .........(......
+0019FE70: 5A 0D 42 00  00 10 40 00  00 00 00 00  00 F0 3D 00  Z.B...@.......=.
+0019FE80: 45 6E 67 69  6E 65 20 38  62 65 63 00  00 00 00 00  Engine 8bec.....
+0019FE90: B0 FE 19 00  FE 5E D2 77  65 6E 00 01  00 00 00 00  .....^.wen......
+0019FEA0: 00 F0 3D 00  00 00 00 00  47 42 00 00  E0 3B C5 00  ..=.....GB...;..
+0019FEB0: CC FE 19 00  9C 30 D5 77  30 C5 57 77  D8 22 00 00  .....0.w0.Ww."..
+0019FEC0: 4C 44 D6 42  00 00 00 00  E0 FE 19 00  F1 0B 42 00  LD.B..........B.
+0019FED0: 00 00 00 00  E9 21 40 00  01 00 00 00  01 00 00 00  .....!@.........
+0019FEE0: 70 FF 19 00  1E 41 40 00  A0 99 40 00  00 00 40 00  p....A@...@...@.
+0019FEF0: 00 00 00 00  0E 41 16 01  01 00 00 00  00 10 40 00  .....A........@.
+
+
+------------------------------------------------------------------------------

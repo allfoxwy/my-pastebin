@@ -1,0 +1,215 @@
+==============================================================================
+World of WarCraft (build 5875)
+
+Exe:      C:\client\WoW_sideload-DLL.exe
+Time:     Feb  2, 2025  1:32:58.396 AM
+User:     steamuser
+Computer: POLARIS
+------------------------------------------------------------------------------
+
+This application has encountered a critical error:
+
+ERROR #132 (0x85100084) Fatal Exception
+Program:	C:\client\WoW_sideload-DLL.exe
+Exception:	0xC0000005 (ACCESS_VIOLATION) at 0023:006203B3
+
+The instruction at "0x006203B3" referenced memory at "0xE9909090".
+The memory could not be "written".
+
+
+WoWBuild: 5875
+------------------------------------------------------------------------------
+
+----------------------------------------
+    x86 Registers
+----------------------------------------
+
+EAX=E9909090  EBX=309145C8  ECX=00630065  EDX=00000000  ESI=0000000B
+EDI=604B24E8  EBP=0102F9BC  ESP=0102F99C  EIP=006203B3  FLG=00210286
+CS =0023      DS =002B      ES =002B      SS =002B      FS =0063      GS =006B
+
+
+----------------------------------------
+    Stack Trace (Manual)
+----------------------------------------
+
+Address  Frame    Logical addr  Module
+
+006203B3 0102F9BC 0001:0021F3B3 C:\client\WoW_sideload-DLL.exe
+005F8A6F 0102F9C8 0001:001F7A6F C:\client\WoW_sideload-DLL.exe
+004655DF 0102F9F8 0001:000645DF C:\client\WoW_sideload-DLL.exe
+004654A9 0102FAE4 0001:000644A9 C:\client\WoW_sideload-DLL.exe
+0046527C 0102FB08 0001:0006427C C:\client\WoW_sideload-DLL.exe
+004673BB 0102FD88 0001:000663BB C:\client\WoW_sideload-DLL.exe
+00537AE7 0102FDA4 0001:00136AE7 C:\client\WoW_sideload-DLL.exe
+00537CA5 0102FDD0 0001:00136CA5 C:\client\WoW_sideload-DLL.exe
+00538541 0102FDF8 0001:00137541 C:\client\WoW_sideload-DLL.exe
+005B3DE3 0102FE38 0001:001B2DE3 C:\client\WoW_sideload-DLL.exe
+00421022 0102FEA8 0001:00020022 C:\client\WoW_sideload-DLL.exe
+00420BF1 0102FEC0 0001:0001FBF1 C:\client\WoW_sideload-DLL.exe
+0040411E 0102FF50 0001:0000311E C:\client\WoW_sideload-DLL.exe
+7BECEA18 0102FF68 0001:0000DA18 C:\windows\system32\kernel32.dll
+7BF4CB53 0102FF80 0001:0000BB53 C:\windows\system32\ntdll.dll
+7BF7FC92 0102FFEC 0001:0003EC92 C:\windows\system32\ntdll.dll
+
+----------------------------------------
+    Stack Trace (Using DBGHELP.DLL)
+----------------------------------------
+
+006203B3 WoW_sideload-DLL.exe <unknown symbol>+0 (0x00000002,0x0102F9F8,0x004655DF,0xEF4CE101)
+005F8A6F WoW_sideload-DLL.exe <unknown symbol>+0 (0xEF4CE101,0xF1100081,0x6EFF24B4,0x00000000)
+004655DF WoW_sideload-DLL.exe <unknown symbol>+0 (0xEF4CE101,0xF1100081,0x00000005,0x014D6991)
+004654A9 WoW_sideload-DLL.exe <unknown symbol>+0 (0x00000000,0x01000000,0x00000000,0x0102FB18)
+0046527C WoW_sideload-DLL.exe <unknown symbol>+0 (0x004D6991,0x0002FD58,0x00000004,0x01DF0000)
+004673BB WoW_sideload-DLL.exe <unknown symbol>+0 (0x014D6991,0x0102FDB8,0x0A604CC8,0x0A606008)
+00537AE7 WoW_sideload-DLL.exe <unknown symbol>+0 (0x014D6991,0x01F6FDB8,0x00C2A2D5,0x007FF9E4)
+00537CA5 WoW_sideload-DLL.exe <unknown symbol>+0 (0x014D6991,0x27CE8E08,0x0000005C,0x00C2A2D5)
+00538541 WoW_sideload-DLL.exe <unknown symbol>+0 (0x0AA4BE68,0x00403629,0x004246B0,0x04E92C18)
+005B3DE3 WoW_sideload-DLL.exe <unknown symbol>+0 (0x00000000,0x00000102,0x04E92C08,0x00000000)
+00421022 WoW_sideload-DLL.exe <unknown symbol>+0 (0x00000000,0x004021E9,0x00000001,0x00000001)
+00420BF1 WoW_sideload-DLL.exe <unknown symbol>+0 (0x004099A0,0x00400000,0x00000000,0x00152759)
+0040411E WoW_sideload-DLL.exe <unknown symbol>+0 (0x003F1000,0x7BF4CB53,0x7BF4CB53,0x003F1000)
+7BECEA18 kernel32.dll <unknown symbol>+0 (0x003F1000,0x00000000,0x00000000,0x00000000)
+7BF4CB53 ntdll.dll    <unknown symbol>+0 (0x7BECEA08,0x00401000,0x003F1000,0xFFFFFFFF)
+7BF7FC92 ntdll.dll    <unknown symbol>+0 (0x00401000,0x003F1000,0x00000000,0x00000000)
+
+
+----------------------------------------
+    Loaded Modules
+----------------------------------------
+
+0x00400000 - 0x00D27000  C:\client\WoW_sideload-DLL.exe
+0x011F0000 - 0x01286000  C:\client\fmod.dll
+0x10000000 - 0x10069000  C:\client\DivxDecoder.dll
+0x75830000 - 0x75897000  C:\client\dbghelp.dll
+0x758B0000 - 0x758E2000  C:\windows\system32\rsaenh.dll
+0x75900000 - 0x75915000  C:\windows\system32\bcrypt.dll
+0x75930000 - 0x75A05000  C:\windows\system32\crypt32.dll
+0x75A20000 - 0x75A2B000  C:\windows\system32\schannel.dll
+0x75A40000 - 0x75A60000  C:\windows\system32\secur32.dll
+0x75A70000 - 0x75A7B000  C:\windows\system32\mswsock.dll
+0x75A90000 - 0x75A9A000  C:\windows\system32\winepulse.drv
+0x75AB0000 - 0x75ABC000  C:\windows\system32\version.dll
+0x75AD0000 - 0x75BE3000  C:\windows\system32\oleaut32.dll
+0x75C00000 - 0x75C2B000  C:\windows\system32\mmdevapi.dll
+0x75C40000 - 0x75C8B000  C:\windows\system32\dsound.dll
+0x75CA0000 - 0x75D3D000  C:\windows\system32\openvr_api_dxvk.dll
+0x75D50000 - 0x75DC1000  C:\windows\system32\setupapi.dll
+0x75DE0000 - 0x7A2D2000  C:\windows\system32\d3d9.dll
+0x7A2F0000 - 0x7A360000  C:\client\UnitXP_SP3.dll
+0x7A370000 - 0x7A395000  C:\client\SuperWoWhook.dll
+0x7A3B0000 - 0x7A3E5000  C:\windows\system32\winevulkan.dll
+0x7A400000 - 0x7A436000  C:\windows\system32\uxtheme.dll
+0x7A450000 - 0x7A466000  C:\windows\system32\winex11.drv
+0x7A480000 - 0x7A4AD000  C:\client\sideload-DLL.dll
+0x7A4C0000 - 0x7A4DE000  C:\windows\system32\mpr.dll
+0x7A4F0000 - 0x7A576000  C:\windows\system32\WININET.dll
+0x7A590000 - 0x7A5A3000  C:\windows\system32\coml2.dll
+0x7A5C0000 - 0x7A645000  C:\windows\system32\rpcrt4.dll
+0x7A660000 - 0x7A6AD000  C:\windows\system32\combase.dll
+0x7A6C0000 - 0x7A7D4000  C:\windows\system32\ole32.dll
+0x7A7F0000 - 0x7A811000  C:\windows\system32\msacm32.dll
+0x7A830000 - 0x7A8F4000  C:\windows\system32\WINMM.dll
+0x7A910000 - 0x7AA47000  C:\windows\system32\OPENGL32.dll
+0x7AA60000 - 0x7AA88000  C:\windows\system32\ws2_32.dll
+0x7AAA0000 - 0x7AAAB000  C:\windows\system32\nsi.dll
+0x7AAC0000 - 0x7AAD4000  C:\windows\system32\dnsapi.dll
+0x7AAF0000 - 0x7AB14000  C:\windows\system32\iphlpapi.dll
+0x7AB30000 - 0x7AB3F000  C:\windows\system32\WSOCK32.dll
+0x7AB50000 - 0x7AB66000  C:\windows\system32\shcore.dll
+0x7AB80000 - 0x7ABCA000  C:\windows\system32\shlwapi.dll
+0x7ABE0000 - 0x7B52A000  C:\windows\system32\SHELL32.dll
+0x7B540000 - 0x7B55C000  C:\windows\system32\imm32.dll
+0x7B570000 - 0x7B5A0000  C:\windows\system32\win32u.dll
+0x7B5B0000 - 0x7B763000  C:\windows\system32\user32.dll
+0x7B780000 - 0x7B807000  C:\windows\system32\gdi32.dll
+0x7B820000 - 0x7B972000  C:\windows\system32\COMCTL32.dll
+0x7B990000 - 0x7BA72000  C:\windows\system32\ucrtbase.dll
+0x7BA90000 - 0x7BAB8000  C:\windows\system32\sechost.dll
+0x7BAD0000 - 0x7BB82000  C:\windows\system32\msvcrt.dll
+0x7BBA0000 - 0x7BBE2000  C:\windows\system32\ADVAPI32.dll
+0x7BC00000 - 0x7BEA4000  C:\windows\system32\kernelbase.dll
+0x7BEC0000 - 0x7BF25000  C:\windows\system32\kernel32.dll
+0x7BF40000 - 0x7BFEF000  C:\windows\system32\ntdll.dll
+
+
+----------------------------------------
+    Memory Dump
+----------------------------------------
+
+Code: 16 bytes starting at (EIP = 006203B3)
+
+006203B3: 89 30 8B 81  8C 00 00 00  3B C2 74 0C  8B B1 88 00  .0......;.t.....
+
+
+Stack: 1024 bytes starting at (ESP = 0102F99C)
+
+* = addr                                         **                       *   
+0102F990: C8 45 91 30  86 48 46 00  B5 24 FF 6E  65 00 63 00  .E.0.HF..$.ne.c.
+0102F9A0: 37 41 61 00  B5 24 FF 6E  E8 24 4B 60  12 54 37 7A  7Aa..$.n.$K`.T7z
+0102F9B0: 65 24 FF 6E  B2 8B 5F 00  02 00 00 00  C8 F9 02 01  e$.n.._.........
+0102F9C0: 6F 8A 5F 00  02 00 00 00  F8 F9 02 01  DF 55 46 00  o._..........UF.
+0102F9D0: 01 E1 4C EF  81 00 10 F1  B4 24 FF 6E  00 00 00 00  ..L......$.n....
+0102F9E0: 09 00 00 00  05 00 00 00  06 00 00 00  D4 FA 02 01  ................
+0102F9F0: 04 00 00 00  B8 21 FF 6E  E4 FA 02 01  A9 54 46 00  .....!.n.....TF.
+0102FA00: 01 E1 4C EF  81 00 10 F1  05 00 00 00  91 69 4D 01  ..L..........iM.
+0102FA10: 58 FD 02 01  00 00 00 00  00 02 08 01  00 00 00 00  X...............
+0102FA20: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FA30: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FA40: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FA50: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FA60: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FA70: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FA80: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FA90: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FAA0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FAB0: 00 00 00 00  00 00 00 00  00 00 00 00  02 00 00 00  ................
+0102FAC0: 1A 00 00 00  58 FD 02 01  01 E1 4C EF  81 00 10 F1  ....X.....L.....
+0102FAD0: B8 21 FF 6E  08 00 00 00  D0 45 91 30  C8 45 91 30  .!.n.....E.0.E.0
+0102FAE0: 00 69 4D 01  08 FB 02 01  7C 52 46 00  00 00 00 00  .iM.....|RF.....
+0102FAF0: 00 00 00 01  00 00 00 00  18 FB 02 01  31 02 00 00  ............1...
+0102FB00: 05 00 00 00  04 00 00 00  88 FD 02 01  BB 73 46 00  .............sF.
+0102FB10: 91 69 4D 00  58 FD 02 00  04 00 00 00  00 00 DF 01  .iM.X...........
+0102FB20: E1 4C EF 81  10 F1 01 00  02 08 01 02  00 00 00 00  .L..............
+0102FB30: 00 00 00 64  00 00 00 00  07 C1 53 4F  29 00 00 00  ...d......SO)...
+0102FB40: 00 00 00 01  00 00 00 00  80 20 00 00  00 00 00 00  ......... ......
+0102FB50: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FB60: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FB70: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FB80: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FB90: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FBA0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FBB0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FBC0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FBD0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FBE0: 00 00 00 00  00 05 00 00  00 3C 00 00  00 00 07 60  .........<.....`
+0102FBF0: 34 3E 29 00  00 03 00 00  00 00 00 00  00 00 00 00  4>).............
+0102FC00: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FC10: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FC20: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FC30: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FC40: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FC50: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FC60: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FC70: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FC80: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FC90: 00 00 00 00  00 00 00 49  1F 00 F2 F5  0A 40 F1 00  .......I.....@..
+0102FCA0: 07 86 60 51  29 00 00 00  00 00 00 00  00 00 00 00  ..`Q)...........
+0102FCB0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FCC0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FCD0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FCE0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FCF0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FD00: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FD10: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FD20: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FD30: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0102FD40: 00 00 00 00  00 00 00 00  00 73 46 00  F6 01 00 00  .........sF.....
+0102FD50: 08 60 60 0A  B8 FD 02 01  10 36 80 00  28 00 F0 5C  .``......6..(..\
+0102FD60: 00 00 00 00  00 03 00 00  31 02 00 00  17 00 00 00  ........1.......
+0102FD70: 08 00 F0 5C  2F 8B 65 00  00 01 00 00  0E 8E CE 27  ...\/.e........'
+0102FD80: 31 02 00 00  31 02 00 00  A4 FD 02 01  E7 7A 53 00  1...1........zS.
+0102FD90: 91 69 4D 01  B8 FD 02 01  C8 4C 60 0A  08 60 60 0A  .iM......L`..``.
+
+
+------------------------------------------------------------------------------
