@@ -2,6 +2,12 @@
 
 No addon.
 
+Loaded mods via twloader.dll:
+- twdiscord.dll
+- nampower (pepopo v2.9.0 Static)
+- Super WoW (03/02/2025 1.5.1)
+- UnitXP_SP3 (v30)
+
 
 (string)ItemRefTooltipTextLeft9 = (table)0x1C9EB008
 (string)ContainerFrame5Item7 = (table)0x1BED5A88
